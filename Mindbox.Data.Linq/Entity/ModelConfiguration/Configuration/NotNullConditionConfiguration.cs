@@ -1,4 +1,6 @@
-﻿namespace System.Data.Entity.ModelConfiguration.Configuration
+﻿using System;
+
+namespace Mindbox.Data.Linq.Entity.ModelConfiguration.Configuration
 {
 	/// <summary>
 	/// Configures a condition used to discriminate between types in an inheritance hierarchy based on the values assigned to a property.

@@ -1,8 +1,8 @@
-﻿using System.Data.Linq.Mapping;
+﻿using System;
 using System.Reflection;
 using Mindbox.Data.Linq.Mapping;
 
-namespace System.Data.Entity.ModelConfiguration.Configuration
+namespace Mindbox.Data.Linq.Entity.ModelConfiguration.Configuration
 {
 	/// <summary>
 	/// Configures a relationship that can only support foreign key properties that are not exposed in the object model.

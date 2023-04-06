@@ -1,4 +1,4 @@
-﻿namespace System.Data.Entity.ModelConfiguration.Configuration
+﻿namespace Mindbox.Data.Linq.Entity.ModelConfiguration.Configuration
 {
 	/// <summary>
 	/// Base class for performing configuration of a relationship.

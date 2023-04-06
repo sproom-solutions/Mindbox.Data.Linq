@@ -1,7 +1,7 @@
-﻿using System.Linq;
+﻿using System;
 using System.Linq.Expressions;
 
-namespace System.Data.Entity.ModelConfiguration.Configuration
+namespace Mindbox.Data.Linq.Entity.ModelConfiguration.Configuration
 {
 	/// <summary>
 	/// Configures the table and column mapping for an entity type or a sub-set of properties from an entity type.
@@ -10,7 +10,7 @@ namespace System.Data.Entity.ModelConfiguration.Configuration
 	public class EntityMappingConfiguration<TEntityType>
 		where TEntityType : class
 	{
-		/// <summary>Initializes a new instance of the <see cref="T:System.Data.Entity.ModelConfiguration.Configuration.EntityMappingConfiguration`1" /> class.</summary>
+		/// <summary>Initializes a new instance of the <see cref="T:Mindbox.Data.Linq.Entity.ModelConfiguration.Configuration.EntityMappingConfiguration`1" /> class.</summary>
 		public EntityMappingConfiguration()
 		{
 			throw new NotImplementedException();

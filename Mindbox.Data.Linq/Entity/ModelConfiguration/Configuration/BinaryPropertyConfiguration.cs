@@ -1,8 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Reflection;
 using ColumnAttribute = System.Data.Linq.Mapping.ColumnAttribute;
 
-namespace System.Data.Entity.ModelConfiguration.Configuration
+namespace Mindbox.Data.Linq.Entity.ModelConfiguration.Configuration
 {
 	/// <summary>
 	/// Used to configure a <see cref="T:System.byte[]" /> property of an entity type or complex type.

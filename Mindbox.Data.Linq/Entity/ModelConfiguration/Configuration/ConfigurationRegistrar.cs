@@ -1,11 +1,10 @@
-﻿using System.Collections.Generic;
-using System.Data.Linq.Mapping;
-using System.Linq;
+﻿using System;
+using System.Collections.Generic;
 using System.Reflection;
 using Mindbox.Data.Linq.Mapping;
 using Mindbox.Data.Linq.Mapping.Entity;
 
-namespace System.Data.Entity.ModelConfiguration.Configuration
+namespace Mindbox.Data.Linq.Entity.ModelConfiguration.Configuration
 {
 	/// <summary>
 	/// Allows derived configuration classes for entities and complex types to be registered with a

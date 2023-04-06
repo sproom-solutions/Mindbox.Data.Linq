@@ -1,4 +1,6 @@
-﻿namespace System.Data.Entity.ModelConfiguration.Configuration
+﻿using System;
+
+namespace Mindbox.Data.Linq.Entity.ModelConfiguration.Configuration
 {
 	/// <summary>
 	/// Configures a relationship that can support cascade on delete functionality.

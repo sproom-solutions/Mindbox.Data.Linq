@@ -1,11 +1,11 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Reflection;
 using Mindbox.Data.Linq.Mapping;
 using Mindbox.Data.Linq.Mapping.Entity;
 
-namespace System.Data.Entity.ModelConfiguration.Configuration
+namespace Mindbox.Data.Linq.Entity.ModelConfiguration.Configuration
 {
 	/// <summary>
 	/// Configures an optional relationship from an entity type.

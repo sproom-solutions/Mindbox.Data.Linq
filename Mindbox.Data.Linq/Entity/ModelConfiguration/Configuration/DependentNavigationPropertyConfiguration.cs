@@ -1,12 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Linq.Mapping;
-using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 using Mindbox.Data.Linq.Mapping;
 using Mindbox.Expressions;
 
-namespace System.Data.Entity.ModelConfiguration.Configuration
+namespace Mindbox.Data.Linq.Entity.ModelConfiguration.Configuration
 {
 	/// <summary>
 	/// Configures a relationship that can support foreign key properties that are exposed in the object model.

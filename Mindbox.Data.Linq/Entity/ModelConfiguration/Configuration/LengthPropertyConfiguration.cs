@@ -1,8 +1,9 @@
-﻿using System.Data.Linq.Mapping;
+﻿using System;
+using System.Data.Linq.Mapping;
 using System.Globalization;
 using System.Reflection;
 
-namespace System.Data.Entity.ModelConfiguration.Configuration
+namespace Mindbox.Data.Linq.Entity.ModelConfiguration.Configuration
 {
 	/// <summary>
 	/// Used to configure a property with length facets for an entity type or complex type.

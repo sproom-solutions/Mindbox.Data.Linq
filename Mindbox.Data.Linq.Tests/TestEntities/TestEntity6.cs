@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Data.Entity.ModelConfiguration;
 using System.Data.Linq;
 using System.Data.Linq.Mapping;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using Mindbox.Data.Linq.Entity.ModelConfiguration;
 
 namespace Mindbox.Data.Linq.Tests
 {

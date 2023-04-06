@@ -1,11 +1,10 @@
-﻿using System.Collections.Generic;
-using System.Data.Entity.ModelConfiguration;
-using System.Data.Entity.ModelConfiguration.Configuration;
-using System.Data.Linq.Mapping;
-using System.Linq;
+﻿using System;
+using System.Collections.Generic;
+using Mindbox.Data.Linq.Entity.ModelConfiguration;
+using Mindbox.Data.Linq.Entity.ModelConfiguration.Configuration;
 using Mindbox.Data.Linq.Mapping;
 
-namespace System.Data.Entity
+namespace Mindbox.Data.Linq.Entity
 {
 	/// <summary>
 	/// DbModelBuilder is used to map CLR classes to a database schema.

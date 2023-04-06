@@ -1,4 +1,6 @@
-﻿namespace System.Data.Entity.ModelConfiguration.Configuration
+﻿using System;
+
+namespace Mindbox.Data.Linq.Entity.ModelConfiguration.Configuration
 {
 	/// <summary>
 	/// Configures a many:many relationship.
@@ -13,7 +15,7 @@
 		/// Configures the foreign key column(s) and table used to store the relationship.
 		/// </summary>
 		/// <param name="configurationAction"> Action that configures the foreign key column(s) and table. </param>
-		/// <returns>The same <see cref="T:System.Data.Entity.ModelConfiguration.Configuration.ManyToManyNavigationPropertyConfiguration`2" /> instance so that multiple calls can be chained.</returns>
+		/// <returns>The same <see cref="T:Mindbox.Data.Linq.Entity.ModelConfiguration.Configuration.ManyToManyNavigationPropertyConfiguration`2" /> instance so that multiple calls can be chained.</returns>
 		public ManyToManyNavigationPropertyConfiguration<TEntityType, TTargetEntityType> Map(
 			Action<ManyToManyAssociationMappingConfiguration> configurationAction)
 		{

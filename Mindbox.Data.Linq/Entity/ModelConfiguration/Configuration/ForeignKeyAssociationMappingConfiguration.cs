@@ -1,7 +1,6 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System;
 
-namespace System.Data.Entity.ModelConfiguration.Configuration
+namespace Mindbox.Data.Linq.Entity.ModelConfiguration.Configuration
 {
 	/// <summary>
 	/// Configures the table and column mapping of a relationship that does not expose foreign key properties in the object model.

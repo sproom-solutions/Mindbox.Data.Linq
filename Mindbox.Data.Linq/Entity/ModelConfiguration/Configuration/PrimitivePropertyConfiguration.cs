@@ -1,10 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Linq.Mapping;
 using System.Data.Linq.SqlClient;
 using System.Reflection;
 using Mindbox.Data.Linq.Mapping;
 
-namespace System.Data.Entity.ModelConfiguration.Configuration
+namespace Mindbox.Data.Linq.Entity.ModelConfiguration.Configuration
 {
 	/// <summary>
 	/// Used to configure a primitive property of an entity type or complex type.
@@ -127,7 +128,7 @@ namespace System.Data.Entity.ModelConfiguration.Configuration
 		}
 
 
-		protected virtual string BuildDbTypeWithoutNullability(Linq.Mapping.ColumnAttribute columnAttribute)
+		protected virtual string BuildDbTypeWithoutNullability(global::System.Data.Linq.Mapping.ColumnAttribute columnAttribute)
 		{
 			if (columnAttribute == null)
 				throw new ArgumentNullException("columnAttribute");
@@ -152,7 +153,7 @@ namespace System.Data.Entity.ModelConfiguration.Configuration
 
 		internal ColumnAttributeByMember GetColumnAttribute()
 		{
-			var columnAttribute = new Linq.Mapping.ColumnAttribute
+			var columnAttribute = new global::System.Data.Linq.Mapping.ColumnAttribute
 			{
 				Name = columnName,
 				CanBeNull = canBeNull ?? 
@@ -195,7 +196,7 @@ namespace System.Data.Entity.ModelConfiguration.Configuration
 		}
 
 
-		private string BuildDbType(Linq.Mapping.ColumnAttribute columnAttribute)
+		private string BuildDbType(global::System.Data.Linq.Mapping.ColumnAttribute columnAttribute)
 		{
 			if (columnAttribute == null)
 				throw new ArgumentNullException("columnAttribute");

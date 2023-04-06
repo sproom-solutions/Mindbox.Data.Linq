@@ -1,14 +1,14 @@
-﻿using System.Collections.Generic;
-using System.Data.Entity.ModelConfiguration.Configuration;
+﻿using System;
+using System.Collections.Generic;
 using System.Data.Linq.Mapping;
-using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
+using Mindbox.Data.Linq.Entity.ModelConfiguration.Configuration;
 using Mindbox.Data.Linq.Mapping;
 using Mindbox.Data.Linq.Mapping.Entity;
 using Mindbox.Expressions;
 
-namespace System.Data.Entity.ModelConfiguration
+namespace Mindbox.Data.Linq.Entity.ModelConfiguration
 {
 	/// <summary>
 	/// Allows configuration to be performed for an entity type in a model.

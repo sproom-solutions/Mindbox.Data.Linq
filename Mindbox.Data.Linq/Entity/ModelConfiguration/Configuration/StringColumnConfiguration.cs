@@ -1,4 +1,6 @@
-﻿namespace System.Data.Entity.ModelConfiguration.Configuration
+﻿using System;
+
+namespace Mindbox.Data.Linq.Entity.ModelConfiguration.Configuration
 {
 	/// <summary>
 	/// Configures a database column used to store a string values.

@@ -1,8 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
 using System.Diagnostics;
-using System.Linq;
 
-namespace System.Data.Entity.ModelConfiguration.Configuration
+namespace Mindbox.Data.Linq.Entity.ModelConfiguration.Configuration
 {
 	/// <summary>
 	/// Configures a discriminator column used to differentiate between types in an inheritance hierarchy.

@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Data.Linq.Mapping;
 using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using Mindbox.Data.Linq.Entity;
 
 namespace Mindbox.Data.Linq.Mapping
 {
