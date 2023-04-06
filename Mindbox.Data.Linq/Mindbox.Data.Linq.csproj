@@ -12,8 +12,9 @@
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
-    <PackageVersion>10.4.0</PackageVersion>
+    <PackageVersion>10.4.1</PackageVersion>
     <AssemblyName>Sproom.Mindbox.Data.Linq</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
